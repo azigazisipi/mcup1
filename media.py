@@ -9,10 +9,10 @@ class Movie():
     def __init__(self, movie_title, movie_storyline, poster_image,
                  trailer_youtube):
         """
-        :param moviee_title: string
+        :param movie_title: string
         :param movie_storyline: string
-        :param poster image: string
-        :param trailer_youtube: string
+        :param poster_image_url: string
+        :param trailer_youtube_url: string
         """
         self.title = movie_title
         self.storyline = movie_storyline

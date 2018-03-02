@@ -15,7 +15,7 @@ class Movie():
         :param trailer_youtube: string
         """
         self.title = movie_title
-        self.stroyline = movie.stroyline
+        self.storyline = movie.storyline
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
         

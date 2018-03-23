@@ -3,21 +3,21 @@ import webbrowser
 
 class Movie():
     """
-    Movie class determines the input and output parameters
+    Movie class defines the parameters for entertaintment_center.py
     """
     
-    def __init__(self, movie_title, movie_storyline, poster_image,
-                 trailer_youtube):
+    def __init__(self, movie_title, movie_storyline, poster_image_url,
+                 trailer_youtube_url):
         """
-        :param movie_title: string
+        :param moviee_title: string
         :param movie_storyline: string
         :param poster_image_url: string
         :param trailer_youtube_url: string
         """
         self.title = movie_title
         self.storyline = movie_storyline
-        self.poster_image_url = poster_image
-        self.trailer_youtube_url = trailer_youtube
+        self.poster_image_url = poster_image_url
+        self.trailer_youtube_url = trailer_youtube_url
         
     def show_trailer(self):
         """

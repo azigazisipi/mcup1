@@ -6,6 +6,4 @@ Udacity Full Stack Web Developer miniproject
 2 - Open and run entertainment_center.py in IDLE, or other Python IDE <br />
 3 - Enjoy
 
-# Modification
-movie_name = media.Movie("Title", "Description", "Poster URL", "Trailer URL") <br />
-movies = [movie_name1, movie_name2, etc...]
+
